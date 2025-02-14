@@ -14,7 +14,7 @@ Gyroscope Sensor: BNO055
 Background
 ----------
 
-On the CrazyCar a Gyroscope/Accelometer (BNO055) is included.
+The CrazyCar uses several sensors for driving. One of them is a Gyroscope/Accelerometer Sensor.
 It can be used to log data e.g. if you drive into a curve and want to know how much force was put onto the car and in which orientation it is.
 Our goal was to get this sensor to work.
 The first thing was to find an exisiting library and to adapt it, so that it fits for our purpose.
@@ -25,6 +25,8 @@ Problems:
    * it was not object-oriented
    * it was not written in c++
    * we did not need all of the functions, so we made it a bit more lightweight
+We fixed all this problems and now have an object oriented C++ Gyroscope logging program. :-)
+
 The license that this project has, is the MIT license, that means that we cant modify the code and publish it, but the developer gives no warranty if everything works properly.
 
 
